@@ -1,0 +1,62 @@
+body,
+html {
+box-sizing: border-box;
+margin:0;
+padding:0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.kasper {
+    background-color: #121116;
+    padding: 120px 0 40px;
+}
+.container {
+width:100%;
+max-width: 1200px;
+padding: 0 15px;
+margin: 0 auto;
+}
+
+.logo {
+text-align: center;
+display: block;
+margin-bottom: 50px;
+}
+
+.text {
+    max-width: 230px;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding: 0 35px 20px 35px;
+    margin: 0 auto;
+    letter-spacing: 0.05em;
+}
+
+.social {
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+}
+
+.social li {
+    display: inline-block;
+    padding: 20px 35px 0 0;
+}
+
+.copyright {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 15px;
+}
+
+.copyright p a {
+    text-decoration: none;
+    color: #19c8fa;
+}
